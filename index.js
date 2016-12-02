@@ -18,6 +18,7 @@ module.exports = function(source) {
 		self: query.self,
 		pretty: query.pretty,
 		locals: query,
+		doctype: query.doctype || 'html',
 		compileDebug: true,
 		externalRuntime: false
 	});
